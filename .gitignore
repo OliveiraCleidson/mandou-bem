@@ -1,0 +1,9 @@
+node_modules
+dist
+.env
+.history/
+tsconfig.tsbuildinfo
+yarn.lock
+
+# GCloud
+gha-creds-*.json

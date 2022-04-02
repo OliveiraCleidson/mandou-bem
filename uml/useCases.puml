@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+
+actor :Usuario: as user
+
+usecase "Enviar um Mandou Bem" as UC1
+usecase "Visualizar Mandou Bem recebidos" as UC2
+usecase "Visualizar quantidade de Mandou Bem recebidos e enviados" as UC3
+
+user --> UC1
+user --> UC2
+user --> UC3
+
+@enduml
